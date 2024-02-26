@@ -12,6 +12,11 @@ const nextConfig = {
         port: "",
         pathname: "/static.awfis.com/wp-content/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.iconscout.com",
+        port: "",
+      },
     ],
   },
   experimental: {

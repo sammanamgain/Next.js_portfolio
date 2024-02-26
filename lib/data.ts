@@ -59,26 +59,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Math word euqation generation",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "using the t5 transformer model, i have developed the platform which will generate the equation give the question in text format and solves it",
+    tags: ["React", "Next.js", "RL", "Tailwind", "Transformer"],
     imageUrl:
       "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
   },
   {
-    title: "rmtDev",
+    title: "Math word euqation generation",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "using the t5 transformer model, i have developed the platform which will generate the equation give the question in text format and solves it",
+    tags: ["React", "Next.js", "RL", "Tailwind", "Transformer"],
     imageUrl:
       "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
   },
   {
-    title: "Word Analytics",
+    title: "Math word euqation generation",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "using the t5 transformer model, i have developed the platform which will generate the equation give the question in text format and solves it",
+    tags: ["React", "Next.js", "RL", "Tailwind", "Transformer"],
     imageUrl:
       "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
   },
@@ -94,11 +94,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "flask",
+
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+
   "Express",
   "PostgreSQL",
   "Python",
