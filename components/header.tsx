@@ -7,9 +7,12 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useConsumeActiveSectionContext } from "@/context/active-section-context-provider";
 export default function Header() {
-  const { activeSection, setActiveSection } = useConsumeActiveSectionContext();
+  const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useConsumeActiveSectionContext();
 
   const changeActiveSection = (sectionName: (typeof links)[number]["name"]) => {
+    //set the time also
+    setTimeOfLastClick(Date.now());
     if (activeSection !== sectionName) {
       setActiveSection(() => sectionName);
     }
