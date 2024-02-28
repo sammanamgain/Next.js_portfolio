@@ -10,7 +10,7 @@ export default function About() {
 
   const { ref } = useSectionInView("About", 0.90);
   
-  console.log(ref)
+
   return (
     <motion.section
       ref={ref}

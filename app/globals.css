@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 
-html{
-    --line-color:#e5e7eb;
+html {
+    --line-color: #e5e7eb;
 }
 
-.borderBlack{
+.borderBlack {
     @apply border border-black/10;
+}
+
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2)
 }
