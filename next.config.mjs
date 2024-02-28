@@ -17,6 +17,22 @@ const nextConfig = {
         hostname: "cdn.iconscout.com",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "assets.everspringpartners.com",
+      },
+      {
+        protocol: "https",
+        hostname: "d1krbhyfejrtpz.cloudfront.net",
+      },
+      {
+        protocol: "https",
+        hostname: "wp.disruptiveadvertising.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.youcubed.org",
+      },
     ],
   },
   experimental: {
