@@ -41,7 +41,7 @@ export const experiencesData = [
   },
   {
     title: "Advanced Node,MongodB and Express js ",
-    location: "Orlando, FL",
+    location: "",
     description:
       "I have also completed the Advanced MEN(MongoDB,Express and Node) from Udemy ",
     icon: React.createElement(CgWorkAlt),
@@ -49,7 +49,7 @@ export const experiencesData = [
   },
   {
     title: "High School",
-    location: "Houston, TX",
+    location: "Lainchour,kathmandu",
     description:
       "I have completed High School on Science faculty from Nist college,kathmandu",
     icon: React.createElement(FaReact),
@@ -124,6 +124,5 @@ export const skillsData = [
 
   "Pytorch",
   "NumPy",
-  "Pandas"
-
+  "Pandas",
 ] as const;
