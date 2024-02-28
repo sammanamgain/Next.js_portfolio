@@ -42,7 +42,9 @@ export default function Header() {
                     "text-gray-950": activeSection === link.name,
                   }
                 )}
-                onClick={() => changeActiveSection(link.name)}
+                onClick={() => {
+                  return changeActiveSection(link.name);
+                }}
               >
                 {link.name}
 

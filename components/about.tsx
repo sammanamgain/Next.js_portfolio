@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/Hooks/sectionView";
 
 export default function About() {
-  const { ref } = useSectionInView("About",0.90);
+
+  const { ref } = useSectionInView("About", 0.90);
+  
+  console.log(ref)
   return (
     <motion.section
       ref={ref}

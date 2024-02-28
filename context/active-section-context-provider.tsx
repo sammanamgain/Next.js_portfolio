@@ -3,6 +3,7 @@ import React, { useState, createContext, useContext } from "react";
 import { links } from "@/lib/data";
 
 type sectionName = (typeof links)[number]["name"];
+
 type ActivesectionContexttype = {
   activeSection: sectionName;
   setActiveSection: React.Dispatch<
