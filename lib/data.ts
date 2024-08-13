@@ -32,29 +32,31 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Node.js Developoer",
+    location: "DhobhiGhat,kathmandu",
+    description:
+      " currently working as backedn developer",
+    icon: React.createElement(FaReact),
+    date: "2024 july-current",
+  },
+
+  {
+    title: "Software Engineering Felloship at leapFrog ",
+    location: "dillibazar,kathmandu ,Nepal",
+    description:
+      "I have completed 5 weeks fellowship from Leapfrog. I have gained experience on HTML,CSS,JS and  Ts  and created many web games ",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 march -april",
+  },
+  {
     title: "Computer Engineer",
     location: "Kathmandu,Nepal",
     description:
       "I graduated after four years of studying in university. Learned computer fundamental like Networking,OS,Theory of computation,Wed development and machine learning",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
-  },
-  {
-    title: "Advanced Node,MongodB and Express js ",
-    location: "",
-    description:
-      "I have also completed the Advanced MEN(MongoDB,Express and Node) from Udemy ",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
-  },
-  {
-    title: "High School",
-    location: "Lainchour,kathmandu",
-    description:
-      "I have completed High School on Science faculty from Nist college,kathmandu",
-    icon: React.createElement(FaReact),
-    date: "2017 - 2019",
-  },
+  }
+ 
 ] as const;
 
 export const projectsData = [
