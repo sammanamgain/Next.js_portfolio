@@ -34,8 +34,7 @@ export const experiencesData = [
   {
     title: "Node.js Developoer",
     location: "DhobhiGhat,kathmandu",
-    description:
-      " currently working as backedn developer",
+    description: " currently working as Full stack developer",
     icon: React.createElement(FaReact),
     date: "2024 july-current",
   },
@@ -55,8 +54,7 @@ export const experiencesData = [
       "I graduated after four years of studying in university. Learned computer fundamental like Networking,OS,Theory of computation,Wed development and machine learning",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
-  }
- 
+  },
 ] as const;
 
 export const projectsData = [
